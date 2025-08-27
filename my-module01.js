@@ -1,5 +1,4 @@
 //สร้างแบบ ESModule
-
 const sau = 'Southest Asia University'
 
 let score = 999
@@ -12,4 +11,4 @@ const squareArea = (wi, lo) => {
     return wi * lo
 }
 
-module.exports = { sau, score, sumNumber, squareArea }
+export {sau, score, sumNumber, squareArea}
